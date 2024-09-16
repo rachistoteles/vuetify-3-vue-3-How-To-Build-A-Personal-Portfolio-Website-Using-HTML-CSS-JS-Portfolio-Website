@@ -7,8 +7,9 @@
           <v-col cols="5">
             <div style="position: relative" class="mt-16">
               <h1 class="text-grey">Hello,</h1>
-              <h1 class="text-white">I'M Lara Elizabeth</h1>
-              <span class="text-grey">Web Designer & Developer</span><br />
+              <h1 class="text-white">I'm Richard Vazquez Burgos</h1>
+              <span class="text-grey"> Software Engineer</span><br />
+              <span class="text-grey">Full Stack Developer </span><br>
 
               <v-btn tile dark class="text-yellow mt-8" variant="outlined">
                 Contact me
@@ -16,8 +17,7 @@
             </div>
           </v-col>
           <v-col cols="2">
-            <div
-              style="
+            <div style="
                 position: absolute;
                 z-index: 9999;
                 bottom: 0;
@@ -26,9 +26,7 @@
                 left: 0;
                 right: 0;
                 text-align: center;
-              "
-              class="mt-16"
-            >
+              " class="mt-16">
               <v-icon>fas fa-angle-double-down</v-icon>
             </div>
           </v-col>
@@ -50,26 +48,26 @@
             <v-col cols="12" sm="6">
               <h5 class="mt-16">About Me</h5>
               <div style="width: 120px">
-                <v-slider
-                  v-model="slider2"
-                  color="yellow"
-                  label="track-color"
-                ></v-slider>
+                <v-slider v-model="slider2" color="yellow" label="track-color"></v-slider>
               </div>
-              <h4 class="mt-n4">I Am a Creative Web Designer</h4>
-              <h4 class="">And Developer</h4>
+              <h4 class="mt-n4">I Am a Software Engineer</h4>
+              <h4 class="">and Full Stack Developer</h4>
               <p class="text-grey">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Aspernatur, ullam perspiciatis fugiat temporibus laboriosam
-                accusamus tempora repellendus sequi sed cum dolorum vero est.
-                Placeat dicta architecto reiciendis est veniam. Unde.
+                I am a versatile full-stack developer with a background in aerospace and defense. Passionate about
+                learning and driven by the pursuit of continuous improvement, I enjoy tackling complex problems and
+                expanding my skill set. My experience spans across various domains, allowing me to bring a unique
+                perspective to software development. Whether working on front-end interfaces or back-end systems, I am
+                committed to delivering high-quality, efficient solutions that make an impact.
+
+               
               </p>
               <br />
               <p class="text-grey">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Aspernatur, ullam perspiciatis fugiat temporibus laboriosam
-                accusamus tempora repellendus sequi sed cum dolorum vero est.
-                Placeat dicta architecto reiciendis est veniam. Unde.
+                Recently, I've been working with technologies such as Vue.js, PostgreSQL, Node.js, Express.js, and Vite,
+                along with JavaScript, HTML, CSS, and SCSS. I leverage AWS EC2 for cloud deployment and use Git for
+                version control. My development environment often involves WSL (Windows Subsystem for Linux) to provide
+                a seamless and powerful workflow. This combination of tools and platforms allows me to build robust,
+                scalable applications while continuously refining my craft.
               </p>
               <v-btn tile dark color="yellow" class="mt-4">
                 Download Resume
@@ -81,11 +79,7 @@
       <div class="text-center mt-4">
         <h2>What we Do</h2>
         <div style="width: 120px; margin: 0 auto">
-          <v-slider
-            v-model="slider2"
-            color="yellow"
-            label="track-color"
-          ></v-slider>
+          <v-slider v-model="slider2" color="yellow" label="track-color"></v-slider>
         </div>
       </div>
       <v-col cols="12" class="padd" id="portfolio">
@@ -93,11 +87,7 @@
           <v-row>
             <v-col cols="12">
               <div class="child">
-                <v-btn
-                  icon="fas fa-laptop"
-                  color="#FBDF7E"
-                  class="text-white"
-                ></v-btn>
+                <v-btn icon="fas fa-laptop" color="#FBDF7E" class="text-white"></v-btn>
                 <h3 class="ml-3 mt-4">Web Design</h3>
                 <p class="text-grey ml-3 mt-4 text-caption">
                   Lorem, ipsum dolor sit amet <br />consectetur adipisicing
@@ -105,11 +95,7 @@
                 </p>
               </div>
               <div class="child">
-                <v-btn
-                  icon="fas fa-mobile-alt"
-                  color="#FBDF7E"
-                  class="text-white"
-                ></v-btn>
+                <v-btn icon="fas fa-mobile-alt" color="#FBDF7E" class="text-white"></v-btn>
                 <h3 class="ml-3 mt-4">App Design</h3>
                 <p class="text-grey ml-3 mt-4 text-caption">
                   Lorem, ipsum dolor sit amet <br />consectetur adipisicing
@@ -117,11 +103,7 @@
                 </p>
               </div>
               <div class="child">
-                <v-btn
-                  icon="fas fa-camera"
-                  color="#FBDF7E"
-                  class="text-white"
-                ></v-btn>
+                <v-btn icon="fas fa-camera" color="#FBDF7E" class="text-white"></v-btn>
                 <h3 class="ml-3 mt-4">Photography</h3>
                 <p class="text-grey ml-3 mt-4 text-caption">
                   Lorem, ipsum dolor sit amet <br />consectetur adipisicing
@@ -147,11 +129,7 @@
           <template v-for="(item, i) in items" :key="i">
             <v-col cols="12" md="4">
               <v-hover v-slot="{ isHovering, props }">
-                <v-card
-                  :elevation="isHovering ? 12 : 2"
-                  :class="{ 'on-hover': isHovering }"
-                  v-bind="props"
-                >
+                <v-card :elevation="isHovering ? 12 : 2" :class="{ 'on-hover': isHovering }" v-bind="props">
                   <v-img :src="item.img" height="225px" cover> </v-img>
                 </v-card>
               </v-hover>
@@ -237,65 +215,32 @@
           <v-col cols="12" sm="4">
             <div class="child">
               <h1>Contact info.</h1>
-              <v-btn
-                icon="fas fa-map-marker-alt"
-                color=""
-                class="mt-10"
-                variant="outlined"
-              ></v-btn
-              ><br />
-              <span class="text-caption">Your Street SYO,yourArea Dream </span
-              ><br />
-              <v-btn
-                icon="fas fa-phone-alt"
-                color=""
-                class="mt-10"
-                variant="outlined"
-              ></v-btn
-              ><br />
+              <v-btn icon="fas fa-map-marker-alt" color="" class="mt-10" variant="outlined"></v-btn><br />
+              <span class="text-caption">Your Street SYO,yourArea Dream </span><br />
+              <v-btn icon="fas fa-phone-alt" color="" class="mt-10" variant="outlined"></v-btn><br />
               <span class="text-caption">00235 - 6521 </span> <br />
               <span class="text-caption">00235 - 6521 </span> <br />
-              <v-btn
-                icon="fas fa-envelope"
-                color=""
-                class="mt-10"
-                variant="outlined"
-              ></v-btn
-              ><br />
-              <span class="text-caption">aaeideapro@gmail.com </span> <br />
-              <span class="text-caption">aaeideapro@gmail.com </span> <br />
+              <v-btn icon="fas fa-envelope" color="" class="mt-10" variant="outlined"></v-btn><br />
+              <span class="text-caption">richardvb76@gmail.com </span> <br />
+              <span class="text-caption">richardvb76@gmail.com </span> <br />
             </div>
           </v-col>
           <v-col cols="12" sm="8">
             <h1 class="mt-8">Send your message</h1>
             <v-divider></v-divider>
-            <span class="text-caption"
-              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            <span class="text-caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
               fugiat officia, odio eaque exercitationem libero nesciunt placeat,
               repellat obcaecati sed tenetur! Est labore aliquam amet
-              consequatur necessitatibus fugit obcaecati facilis!</span
-            >
+              consequatur necessitatibus fugit obcaecati facilis!</span>
             <v-row class="mt-10">
               <v-col cols="12" sm="6">
-                <v-text-field
-                  label="Name"
-                  persistent-hint
-                  variant="outlined"
-                ></v-text-field>
+                <v-text-field label="Name" persistent-hint variant="outlined"></v-text-field>
               </v-col>
               <v-col cols="12" sm="6">
-                <v-text-field
-                  label="Phone No"
-                  persistent-hint
-                  variant="outlined"
-                ></v-text-field>
+                <v-text-field label="Phone No" persistent-hint variant="outlined"></v-text-field>
               </v-col>
             </v-row>
-            <v-textarea
-              label="Message"
-              persistent-hint
-              variant="outlined"
-            ></v-textarea>
+            <v-textarea label="Message" persistent-hint variant="outlined"></v-textarea>
             <v-btn color="#FBDF7E" class="mt-2">Submit Now</v-btn>
           </v-col>
         </v-row>
