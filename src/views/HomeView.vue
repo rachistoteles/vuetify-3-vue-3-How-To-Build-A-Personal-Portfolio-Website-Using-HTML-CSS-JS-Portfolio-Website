@@ -216,12 +216,10 @@
             <div class="child">
               <h1>Contact info.</h1>
               <v-btn icon="fas fa-map-marker-alt" color="" class="mt-10" variant="outlined"></v-btn><br />
-              <span class="text-caption">Your Street SYO,yourArea Dream </span><br />
+              <span class="text-caption">Juncos, Puerto Rico </span><br />
               <v-btn icon="fas fa-phone-alt" color="" class="mt-10" variant="outlined"></v-btn><br />
-              <span class="text-caption">00235 - 6521 </span> <br />
-              <span class="text-caption">00235 - 6521 </span> <br />
+              <span class="text-caption">787-509-3318</span> <br />
               <v-btn icon="fas fa-envelope" color="" class="mt-10" variant="outlined"></v-btn><br />
-              <span class="text-caption">richardvb76@gmail.com </span> <br />
               <span class="text-caption">richardvb76@gmail.com </span> <br />
             </div>
           </v-col>
