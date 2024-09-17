@@ -53,7 +53,7 @@
               <h4 class="mt-n4">I Am a Software Engineer</h4>
               <h4 class="">and Full Stack Developer</h4>
               <p class="text-grey">
-                I am a versatile full-stack developer with a background in aerospace and defense. Passionate about
+                I am a full-stack developer with a background in aerospace and defense. Passionate about
                 learning and driven by the pursuit of continuous improvement, I enjoy tackling complex problems and
                 expanding my skill set. My experience spans across various domains, allowing me to bring a unique
                 perspective to software development. Whether working on front-end interfaces or back-end systems, I am
@@ -69,7 +69,7 @@
                 a seamless and powerful workflow. This combination of tools and platforms allows me to build robust,
                 scalable applications while continuously refining my craft.
               </p>
-              <v-btn tile dark color="yellow" class="mt-4">
+              <v-btn tile dark color="yellow" class="mt-4" href="/Richard_Vazquez_Burgos _Resume_2024.pdf">
                 Download Resume
               </v-btn>
             </v-col>
